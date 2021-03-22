@@ -19,10 +19,6 @@ import javax.inject.Named;
 import javax.enterprise.context.RequestScoped;
 import javax.faces.context.FacesContext;
 
-/**
- *
- * @author begonaolea
- */
 @Named(value = "gestionTareasMB")
 @RequestScoped
 public class GestionTareasManagedBean {
